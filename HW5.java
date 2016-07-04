@@ -13,7 +13,7 @@ public class HW5 extends JFrame {
 	JLabel text1_2 = new JLabel("位");
 	JLabel text2_2 = new JLabel("位");
 	JTextField inp1 = new JTextField("0");
-	JTextField inp2 = new JTextField("0");sadsad
+	JTextField inp2 = new JTextField("0");
 	JButton btn1 = new JButton("確定結帳");
 	JButton btn2 = new JButton("清空");
 	int ad_price = 268 , ch_price = 120;
