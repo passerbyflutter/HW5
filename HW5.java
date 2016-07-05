@@ -50,9 +50,9 @@ public class HW5 extends JFrame {
 					int ch_num = Integer.parseInt(inp2.getText());
 					int total = ad_num + ch_num;
 					int total_price = 0;
-					if(ad_num != 0) dis = dis + "大人　" + ad_num + "人　" + ad_num*ad_price + "元\n";
+					dis = dis + "大人　" + ad_num + "人　" + ad_num*ad_price + "元\n";
 					total_price = total_price + ad_num*ad_price;
-					if(ch_num != 0) dis = dis + "小孩　" + ch_num + "人　" + ch_num*ch_price + "元\n";
+					dis = dis + "小孩　" + ch_num + "人　" + ch_num*ch_price + "元\n";
 					total_price = total_price + ch_num*ch_price;
 					if(total >= 3){
 						dis = dis + "折扣\n";
@@ -64,7 +64,7 @@ public class HW5 extends JFrame {
 						else{
 							dis = dis + "大人　" + (discount-ch_num) + "人　" + -(discount-ch_num)*ad_price + "元\n";
 							total_price = total_price - (discount-ch_num)*ad_price;
-							if(ch_num != 0) dis = dis + "小孩　" + ch_num + "人　" + -ch_num*ch_price + "元\n";
+							dis = dis + "小孩　" + ch_num + "人　" + -ch_num*ch_price + "元\n";
 							total_price = total_price - ch_num*ch_price;
 						}
 						if(total >= 10){
