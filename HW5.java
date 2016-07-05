@@ -91,7 +91,7 @@ public class HW5 extends JFrame {
 	};
 
 	HW5() {
-
+		System.out.println("hello passerby");
 		Container cp = getContentPane(); 
 		cp.setLayout(null);
 		
